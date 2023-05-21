@@ -1,0 +1,22 @@
+{
+  "resorts": [
+    {
+      "id": 1,
+      "myId": 1,
+      "title": "Ski Resort Alpika-Service",
+      "description": "To Sochi from Moscow",
+      "price": 50000,
+      "img": "/img/1.jpeg"
+    },
+    {
+      "id": 2,
+      "myId": 2,
+      "title": "Georgia Resort",
+      "description": "To Georgia from Moscow",
+      "price": 55000,
+      "img": "/img/2.jpg"
+    }
+  ],
+  "cart": [],
+  "favorites": []
+}
