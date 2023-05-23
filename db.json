@@ -18,5 +18,14 @@
     }
   ],
   "cart": [],
-  "favorites": []
+  "favorites": [],
+  "form": [
+    {
+      "firstName": "Ivan",
+      "lastName": "Ivanov",
+      "patronymic": "Ivanovich",
+      "email": "ivanov@ya.ru",
+      "id": 1
+    }
+  ]
 }

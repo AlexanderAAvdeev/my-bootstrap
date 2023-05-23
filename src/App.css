@@ -38,14 +38,14 @@
   }
 }
 
-#footer{
-  position:fixed;
+/* #footer{
+  position:absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   background-color: darkgray;
   text-align: center;
-}
+} */
 
 .col-md-2{
   background: #61dafb;

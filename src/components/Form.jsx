@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useForm } from "react-hook-form";
 import 'leaflet/dist/leaflet.css'
 import { MapContainer, Marker, TileLayer, Popup, CircleMarker, Tooltip } from 'react-leaflet';
+import axios from 'axios';
 const center=[55.737399, 37.473690]
+
+
 
 
 const Form = () => {
   const { register, handleSubmit, watch,formState:{errors} } = useForm();
-  const onSubmit = data => console.log(data);
+  const onSubmit = (data) => {
+    axios.post('http://localhost:8000/form', data)
+    alert('Application sent')
+    console.log(data)
+
+  }
 
   console.log(watch("firstName", "lastName"));
   
